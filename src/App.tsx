@@ -1,7 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { Test } from "./Test";
 const App: React.FC = () => {
   return (
     <div className="App">
@@ -18,9 +18,10 @@ const App: React.FC = () => {
         >
           Learn React
         </a>
+        <Test></Test>
       </header>
     </div>
   );
-}
+};
 
 export default App;
